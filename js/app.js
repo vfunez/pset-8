@@ -66,6 +66,10 @@ function takeTurn(e) {
 
       render();
     }
+    if (win === "T") {
+    tie++;
+    document.getElementById('tie-score').innerHTML = tie;
+    }
   }
 }
 function getWinner() {
