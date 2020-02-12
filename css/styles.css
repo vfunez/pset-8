@@ -6,6 +6,7 @@
 body {
   text-align: center;
   font-family: "Roboto", monospace;
+  background-color: #E1CCEC;
 }
 
 /*
@@ -18,6 +19,7 @@ h1 {
   font-family: "Major Mono Display", monospace;
   font-size: 48px;
   margin: 2%;
+  color: #813CA5;
 }
 
 /*
@@ -29,6 +31,7 @@ h2 {
   font-size: 36px;
   font-weight: lighter;
   margin: 2%;
+  color: #813CA5;
 }
 
 /*
@@ -69,10 +72,11 @@ h2 {
  */
 
 .square {
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 1px solid #813CA5;
   height: 150px;
   user-select: none;
   width: 150px;
+  color: #813CA5
 }
 
 /*
@@ -80,7 +84,7 @@ h2 {
  */
 
 .square:hover {
-  background-color: lightgray;
+  background-color: #F1F1F6;
   cursor: pointer;
 }
 
@@ -89,9 +93,9 @@ h2 {
  */
 
 #reset-button {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
+  background-color: #E1CCEC;
+  border: 1px solid #813CA5;
+  color: #813CA5;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -105,12 +109,12 @@ h2 {
  */
 
 #reset-button:hover {
-  background-color: black;
-  color: white;
+  background-color: #813CA5;
+  color: #E1CCEC;
   cursor: pointer;
 }
 .square {
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 1px solid #813CA5;
   font-size: 96px;
   height: 150px;
   line-height: 150px;
