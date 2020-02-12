@@ -63,7 +63,7 @@ h2 {
 
 .wrap {
   flex-wrap: wrap;              /* tells container to drop down once it reaches max-width */
-  height: 556px;
+  height: 456px;
   width: 456px;
 }
 
