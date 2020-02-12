@@ -81,5 +81,12 @@ function getWinner() {
     }
   });
 
+    if (winner === "X") {
+      xWin++;
+      document.getElementById('x-score').innerHTML = xWin;
+    } else if (winner === "O") {
+      oWin++;
+      document.getElementById('o-score').innerHTML = oWin;
+    }
   return winner ? winner : board.includes("") ? null : "T";
 }
