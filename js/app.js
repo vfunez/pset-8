@@ -13,6 +13,9 @@ const winningConditions = [
 let board;
 let turn;
 let win;
+let xWin = 0;
+let tie = 0;
+let oWin = 0;
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
 const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
